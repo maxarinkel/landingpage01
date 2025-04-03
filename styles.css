@@ -1,0 +1,96 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navlinks {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    padding: 20px 200px;
+    gap: 50px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    gap: 20px;
+}
+
+.leftside > div {
+    flex:1 1 auto;
+}
+
+.rightside{
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.heroimage {
+    max-width: 450px;
+    flex: 1 1 auto;
+}
+
+.h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.bodycopy {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttoncontainer {
+    background-color: #3882F6;
+    max-width: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: #E5E7EB;
+}
