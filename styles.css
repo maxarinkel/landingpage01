@@ -19,24 +19,24 @@ body {
 .hero {
     background-color: #1F2937;
     display: flex;
-    padding: 20px 200px;
-    gap: 50px;
+    padding: 30px 170px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
 }
 
 .leftside {
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
-    gap: 20px;
-}
-
-.leftside > div {
-    flex:1 1 auto;
+    flex:1;
+    max-width: 500px; 
 }
 
 .rightside{
     display: flex;
-    flex: 1 1 auto;
+  
+  
 }
 
 .heroimage {
@@ -44,7 +44,7 @@ body {
     flex: 1 1 auto;
 }
 
-.h1 {
+h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
@@ -54,11 +54,12 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    flex: 1;
 }
 
 h3 {
     font-size: 36px;
-    font-weight: light;
+    font-weight: 100;
     color: #1F2937;
     font-style: italic;
 }
@@ -69,7 +70,7 @@ h4 {
     font-weight: 900;
 }
 
-.bodycopy {
+p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -89,8 +90,114 @@ a {
     display:flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    padding:10px;
 }
 
 .button {
     color: #E5E7EB;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+
+.boxes {
+    display: flex;
+    flex:1 1 0;
+    gap: 30px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.caption {
+    font-size: 18px;
+    color: #1F2937;
+    max-width: 200px;
+}
+
+.box > img {
+    max-width: 200px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quoteblock {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    max-width: 900px;
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    padding: 30px 250px; 
+}
+
+.attribution {
+    text-align: end;
+}
+
+.ctablock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    margin: 100px;
+    padding: 30px 100px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ctacopy {
+    flex-direction: column;
+    flex: 2;
+    min-width: 300px;
+}
+
+.buttoncontainerrev {
+    flex: 1;
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+}
+
+.buttonrev {
+    flex: 1;
+    color: #FFF;
+    text-align: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
